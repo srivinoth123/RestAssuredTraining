@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "amazon functionality scenario",
+        "description": "",
+        "id": "validate-amazon-functionality-feature;amazon-functionality-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8402631700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on amazon home page",
+            "match": {
+              "location": "AmazonStepDef.user_is_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4530533200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on best sellers option",
+            "match": {
+              "location": "AmazonStepDef.user_click_on_best_sellers_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1668989600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select baby products option which is available in left side",
+            "match": {
+              "location": "AmazonStepDef.user_select_baby_products_option_which_is_available_in_left_side()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13888700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it should navicated to baby products page",
+            "match": {
+              "location": "AmazonStepDef.it_should_navicated_to_baby_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AmazonFeature"
+          }
+        ]
+      }
+    ],
+    "name": "validate amazon functionality feature",
+    "description": "",
+    "id": "validate-amazon-functionality-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featureFile/Amazon.feature",
+    "tags": [
+      {
+        "name": "@AmazonFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.619833">
+    <testcase classname="validate amazon functionality feature" name="amazon functionality scenario" time="14.619833">
+        <system-out><![CDATA[Given user is on amazon home page...........................................passed
+When user click on best sellers option......................................passed
+And user select baby products option which is available in left side........passed
+Then it should navicated to baby products page..............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
